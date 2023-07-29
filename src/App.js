@@ -1,10 +1,15 @@
+import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
+  const [user, setUsers] = useState([]);
 
-    </div>
+  useEffect(() => {
+
+    
+  }, [])
+  return (
+    <div className="App"></div>
   );
 }
 
