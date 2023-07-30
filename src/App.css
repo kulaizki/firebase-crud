@@ -21,3 +21,17 @@
   display: flex;
   gap: 16px;
 }
+
+input {
+  padding: 4px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  box-shadow: 0 0 8px black;
+}
